@@ -7,7 +7,6 @@ import dayjs, { Dayjs } from 'dayjs'
 import DateReserve from '@/components/DateReserve'
 import { AppDispatch } from '@/redux/store'
 import { addBooking } from '@/redux/features/bookSlice'
-import { BookingItem } from '../../../interfaces'
 
 export default function Booking() {
   const dispatch = useDispatch<AppDispatch>()

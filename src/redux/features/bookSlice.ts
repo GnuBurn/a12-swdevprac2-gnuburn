@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit"
-import { BookingItem } from "../../../interfaces"
 
 type BookState = {
   bookItems: BookingItem[]
